@@ -1,0 +1,26 @@
+{
+  "name": "devflags",
+  "version": "0.1.0",
+  "description": "Scans given directory for contextual notices in your scripts and text files",
+  "main": "devflags.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loksland/devflags.git"
+  },
+  "bin": {
+    "commentos": "devflags.js"
+  },
+  "author": "loksland",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bugs": {
+    "url": "https://github.com/loksland/commentos/issues"
+  },
+  "homepage": "https://github.com/loksland/commentos#readme",
+  "dependencies": {
+    "terminal-kit": "^1.27.0"
+  }
+}
